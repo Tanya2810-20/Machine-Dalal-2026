@@ -31,8 +31,10 @@
         <div class="container">
 
           <div class="small_header">
+
             <div>
-              <button type="button" class="sell_btn" onclick="window.location.href = 'list-on-machine-dalal.html';">Seller Portal</button>
+              <button type="button" class="sell_btn"
+                onclick="window.location.href = 'list-on-machine-dalal.html';">Seller Portal</button>
             </div>
           </div>
         </div>
@@ -82,7 +84,7 @@
                   </li>
 
                   <li>
-                     <p data-menu="plans" onclick="window.location.href = 'plans.html';">
+                    <p data-menu="plans" onclick="window.location.href = 'plans.html';">
                       Plans
                     </p>
                   </li>
@@ -603,7 +605,7 @@
                       </ul>
                     </div>
                   </li>
-              
+
                 </ul>
               </div>
               <div class="header_menu_new_card_list">
@@ -678,29 +680,233 @@
   </header>
 
 
-
-
   <div class="main_body">
-
 
     <div class="breadcrumbs_sec">
       <div class="container">
         <div class="leftLinks1">
           <a href="index.html">Home</a>
           <span class="arrowRight">&gt;</span>
-          <span class="mac_brand">Sold</span>
+          <span class="mac_brand">Requirements</span>
         </div>
       </div>
     </div>
 
     <!--============ Listing START ============-->
-    <section class="md_list_sec_main md_soldlist_sec_main">
+    <section class="md_list_sec_main md_requirement_sec_main">
       <div class="container">
+        <div class="md_list_content_head md_list_content_head_2">
+          <div class="md_list_content_head_txt">
+            <div class="md_list_content_head_txt_flex">
+              <h1 class="section-title_2">Requirements </h1>
+              <div class="add_filter">
+                <div class="add_filter_btn">
+                  <button class="show_sideBar"><span class="material-symbols-outlined"> tune </span></button>
+                </div>
+              </div>
+            </div>
+            <p class="section-sub">Browse open requirements and respond with a quote. Connect directly with
+              verified buyers actively searching for specific industrial machinery.</p>
+          </div>
+
+          <div class="md_list_content_head_sec">
+            <div class="brand_search">
+              <div class="search-wrap">
+                <button class="search-btn" onclick="doSearch()"><span class="search-ico">
+                    <img src="images/search.svg" alt="search">
+                  </span></button>
+                <input class="search-input" type="text" placeholder="Search requirements by title, brand, category..."
+                  autocomplete="off">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
         <div class="md_list_sub">
 
           <div class="md_list_sidebar md_list_sidebar_mob">
             <span class="material-symbols-outlined close_list"> close </span>
             <div class="md_list_sidebar_inner">
+
+              <div class="md_list_sidebar_list">
+                <div class="md_list_sidebar_list1 md_list_sidebar_list_check md_list_sidebar_filters">
+                  <h3>
+                    Filters
+                    <div class="md_clear_filters">
+                      <p>Clear All</p>
+                    </div>
+                  </h3>
+                  <div class="md_list_sidebar_list11">
+                    <div class="md_sidebar_filter_Sec">
+
+                      <p class="md_sidebar_filter">
+                        <span>
+                          <span class="md_sidebar_filter_name"><span
+                              class="md_sidebar_filter_name">Category:</span></span> Sheet Fed/ Offset, Pre Press, Post
+                          Press, Sheet Fed/ Offset, Pre Press, Post Press, Sheet Fed/ Offset, Pre Press, Post Press <img
+                            src="images/close.svg" alt="close">
+                        </span>
+                      </p>
+
+                      <p class="md_sidebar_filter">
+                        <span>
+                          <span class="md_sidebar_filter_name">Location:</span> Australia, New Zealand, China, Germany
+                          <img src="images/close.svg" alt="close">
+                        </span>
+                      </p>
+
+
+
+                    </div>
+
+                    <button type="button" class="show-more-btn_2">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+
+                <div class="md_list_sidebar_list_main">
+
+                  <div class="md_list_sidebar_list1 md_list_sidebar_list_check">
+                    <h3>
+                      Categories
+                    </h3>
+                    <div class="md_list_sidebar_list11">
+                      <div class="list-search-wrap">
+                        <div class="list-search-row">
+                          <span class="list-search-ico">
+                            <img src="images/search.svg" alt="search">
+                          </span>
+
+                          <div class="list-search-input-wrap">
+                            <input class="list-search-input" type="text" id="heroSearch" placeholder="Search here"
+                              autocomplete="off">
+                            <span class="search_close">
+                              <img src="images/close.svg" alt="close">
+                            </span>
+                          </div>
+
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <!-- Category not found -->
+                    <div class="sidebar-no-results">
+                      <h4 class="no-results-title">No Category Found</h4>
+                    </div>
+                    <!-- Category not found -->
+
+                  </div>
+
+                  <div class="md_list_sidebar_list1">
+                    <h3>
+                      <a href="#">Sheet Fed / Offset</span></a>
+                    </h3>
+                  </div>
+
+                  <div class="md_list_sidebar_list1">
+                    <h3>
+                      <a href="#" class="selected_list">Pre Press <span>(35)</span></a>
+                    </h3>
+                    <div class="md_list_sidebar_list11">
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          CTP Systems (25)
+                        </span>
+                      </div>
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          Plate Processors (5)
+                        </span>
+                      </div>
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          Die-cutters- automatic and handfed (5)
+                        </span>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                  <div class="md_list_sidebar_list1">
+                    <h3>
+                      <a href="#">Post Press <span>(35)</span></a>
+                    </h3>
+                    <div class="md_list_sidebar_list11">
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          CTP Systems (25)
+                        </span>
+                      </div>
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          Plate Processors (5)
+                        </span>
+                      </div>
+                      <div class="md_list_sidebar_list111">
+                        <span class="md_list_label">
+                          Plate Punchers / Benders (1)
+                        </span>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="md_list_sidebar_list1 md_list_sidebar_list_check">
+                  <h3>
+                    LOCATION
+                  </h3>
+                  <div class="md_list_sidebar_list11">
+                    <div class="md_list_sidebar_list111">
+                      <span class="md_list_label">
+                        <label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>Australia
+                      </span>
+                    </div>
+                    <div class="md_list_sidebar_list111">
+                      <span class="md_list_label">
+                        <label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>Canada
+                      </span>
+                    </div>
+                    <div class="md_list_sidebar_list111">
+                      <span class="md_list_label">
+                        <label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>Germany
+                      </span>
+                    </div>
+                    <div class="md_list_sidebar_list111">
+                      <span class="md_list_label">
+                        <label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>Australia
+                      </span>
+                    </div>
+                    <div class="md_list_sidebar_list111">
+                      <span class="md_list_label">
+                        <label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>Canada
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
 
 
             </div>
@@ -708,17 +914,7 @@
 
           <div class="md_list_content">
 
-            <div class="md_list_content_head md_list_content_head_2 md_soldlist_content_head">
-              <div class="md_list_content_head_txt">
-                <div class="md_list_content_head_txt_flex">
-                  <h1 class="section-title_2">Recently Sold Print, Packaging & Converting Machines </h1>
-                
-                </div>
 
-              </div>
-
-
-            </div>
 
             <div class="md_list_content_body">
               <div class="md_list_content_body_inner">
@@ -812,577 +1008,555 @@
 
                 <div class="listings-grid_new">
                   <!-- CARD 1 -->
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-PM52-4S-thumbnail-639047521323769009.jpg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN STOCK
-                          </span>
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-blue">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">MACHINERY</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
                         </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        <span class="listing-title_dtl">75-7+LX -F-Size UV</span>
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-pric-req listing-price-blur">
-                        <img src="images/payments.svg" alt="payment">
-                        <p class="req-price">
-                          Price On Request
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-CD102-5-thumbnail-639008668487392460.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - EXCELLENT
-                          </span>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
                         </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
                       </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
                         </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
                       </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-info">
-                        <p class="listing-price listing-price-blur">
-                          $ 68,000
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-75-7-LX-F-Size-UV-thumbnail-639152890239343398.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN TRANSIT
-                          </span>
-                        </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-info">
-                        <p class="listing-price listing-price-blur">
-                          $ 68,000
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-75-7-LX-F-Size-UV-thumbnail-639152890239343398.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - EXCELLENT
-                          </span>
-                        </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-info">
-                        <p class="listing-price listing-price-blur">
-                          $ 68,000
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-75-7-LX-F-Size-UV-thumbnail-639152890239343398.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN STOCK
-                          </span>
-                        </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-pric-req listing-price-blur">
-                        <img src="images/payments.svg" alt="payment">
-                        <p class="req-price">
-                          Price On Request
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/die-cutting-heidelberg-ohz-sbd-thumbnail-638815310248353846.jpg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN TRANSIT
-                          </span>
-                        </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-info">
-                        <p class="listing-price listing-price-blur">
-                          $ 68,000
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
-                    </div>
-                  </a>
-                  <a href="sold-detail.html" class="listing-card listing-card-new_mach fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/discover/jewa-trading-gmbh-commercial-heatset-man-roland-euroman-32-page-full.png"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            NEW - EXCELLENT
-                          </span>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        Manroland Euroman 32 Page - Manroland
-                      </h3>
-
-                    </div>
-
-                  </a>
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-75-7-LX-F-Size-UV-thumbnail-639152890239343398.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN STOCK
-                          </span>
-                        </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
-                      </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-pric-req listing-price-blur">
-                        <img src="images/payments.svg" alt="payment">
-                        <p class="req-price">
-                          Price On Request
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
                     </div>
                   </a>
 
-
-                  <a href="sold-detail.html" class="listing-card fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img
-                          src="https://eurografstorage.blob.core.windows.net/eurograf/used-equipments/Sheet-Fed-Offset-Heidelberg-75-7-LX-F-Size-UV-thumbnail-639152890239343398.jpeg"
-                          alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            USED - IN STOCK
-                          </span>
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-yellow">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">Spare Parts</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
                         </div>
-                        <button class="save-btn" onclick="toggleSave(event,this)" aria-label="Save">
-                          <span class="fav_item">
-                            <img src="images/favourite.svg" alt="favourite">
-                          </span>
-                          <span class="fav_item_colrd">
-                            <img src="images/fav-filled.svg" alt="favourite">
-                          </span>
-                        </button>
-                        <span class="listing-title_main">Heidelberg</span>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        75-7+LX -F-Size UV
-                      </h3>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-
-                          <span class="header_menu_ico card-ico">
-                            <img src="images/bookmark.svg" alt="bookmark">
-                          </span>
-                          Sheet Fed / Offset
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
                         </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
                       </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="location_search">
-                            <img src="images/location-search.svg" alt="location-search">
-                          </span>
-                          Chicago, IL
-                        </p>
-                      </div>
-                      <div class="listing_flex">
-                        <p class="listing_flex_meta">
-                          <span class="calander">
-                            <img src="images/calander.svg" alt="calander">
-                          </span>
-                          2004
-                        </p>
-                      </div>
-                    </div>
-                    <div class="listing-footer">
-                      <div class="seller-pric-req listing-price-blur">
-                        <img src="images/payments.svg" alt="payment">
-                        <p class="req-price">
-                          Price On Request
-                        </p>
-                      </div>
-                      <button type="button" class="listing-meta_btn"
-                        aria-label="View specs for Heidelberg 75-7+LX F-Size UV, 2004, Chicago IL">
-                        <span> View Specs</span>
-                      </button>
                     </div>
                   </a>
 
-                  <a href="sold-detail.html" class="listing-card listing-card-new_mach fade-up">
-                    <div class="listing-img-container">
-                      <span class="listing-mach-sold">Sold</span>
-                      <div class="listing-img listing-img-blur">
-                        <img src="images/list-mach-1.jpg" alt="machine">
-                        <div class="listing-badges">
-                          <span class="badge">
-                            NEW - EXCELLENT
-                          </span>
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-blue">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">MACHINERY</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
                         </div>
-
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
                       </div>
                     </div>
-                    <div class="listing-body">
-                      <h3 class="listing-title">
-                        Manroland Euroman 32 Page - Manroland
-                      </h3>
-
-                    </div>
-
                   </a>
 
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-yellow">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">Spare Parts</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-blue">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">MACHINERY</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-yellow">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">Spare Parts</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-blue">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">MACHINERY</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-yellow">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">Spare Parts</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="requirements-detail.html" class="req_listing-card fade-up">
+                    <div class="req_listing_card-name req_listing-blue">
+                      <img src="images/machinery-1.svg" alt="machinery">
+                      <p class="req_listing-name">MACHINERY</p>
+                    </div>
+                    <div class="req_listing-inner">
+                      <div class="req_listing-inner2">
+                        <div class="req_listing-head">
+                          <h3 class="req_listing-title">
+                            5-Colour Sheetfed Offset Printing Press
+                          </h3>
+                        </div>
+                        <div class="req_listing-body">
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/bookmark.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Sheet Fed / Offset
+                            </p>
+                          </div>
+                          <div class="req_listing-flex req_listingcat-flex show_on_hover_main">
+                            <div class="req_listing-img">
+                              <img src="images/category.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini
+                            </p>
+                            <div class="field_hint show_on_hover" id="nameHint"><img src="images/category-yellow.svg"
+                                alt="category">Komori, Heidelberg, Adast,Manroland, Horizon, Muller Martini </div>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/card_travel.svg" alt="category">
+                            </div>
+                            <p class="req_listing-text">
+                              Carter Print Solutions
+                            </p>
+                          </div>
+                          <div class="req_listing-flex">
+                            <div class="req_listing-img">
+                              <img src="images/loc-2.svg" alt="location">
+                            </div>
+                            <p class="req_listing-text">
+                              Sydney, Australia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req_listing-footer">
+                        <p class="req_listing-budget">
+                          <span class="req_listing-budget_title">BUDGET</span>
+                          <span class="req_listing-budget_price">$45,000 - $60,000</span>
+                        </p>
+                        <!-- <button type="button" class="req_listing-meta_btn">
+                        <span> View Details</span>
+                      </button> -->
+                      </div>
+                    </div>
+                  </a>
 
 
                 </div>
@@ -1560,6 +1734,14 @@
   <script src="js/owl.carousel.min.js"></script>
 
   <script>
+    // Save button toggle
+    function toggleSave(e, btn) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      btn.classList.toggle('saved');
+    }
+
     // Fade-up scroll animation
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

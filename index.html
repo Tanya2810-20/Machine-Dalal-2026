@@ -32,7 +32,7 @@
         <div class="container">
           <div class="small_header">
             <div>
-              <button type="button" class="sell_btn">Seller Portal</button>
+              <button type="button" class="sell_btn" onclick="window.location.href = 'list-on-machine-dalal.html';">Seller Portal</button>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="header_content" itemscope="" itemtype="https://schema.org/WebSite">
           <div class="header_mach_logo_sec">
             <div class="header_mach_logo">
-              <div class="logo">
+              <div class="logo" onclick="window.location.href = 'index.html';">
                 <a itemprop="url" href="index.html" class="md-logo">
                   <img itemprop="logo" src="images/md-logo-new.svg" alt="Machine Dalal logo Image" />
                 </a>
@@ -59,9 +59,7 @@
                   <li>
                     <p data-menu="products" class="products">
                       Machinery
-                      <span class="arrow_icon">
-                        <img src="images/arrow-down.svg" alt="arrow icon">
-                      </span>
+                      <span class="arrow_icon"><img src="images/arrow-down.svg" alt="arrow icon"></span>
                     </p>
                   </li>
 
@@ -84,7 +82,7 @@
                   </li>
 
                   <li>
-                    <p data-menu="plans">
+                     <p data-menu="plans" onclick="window.location.href = 'plans.html';">
                       Plans
                     </p>
                   </li>
@@ -93,7 +91,7 @@
             </div>
             <div class="headerSearch_new">
               <div class="search-wrap">
-                <div class="search-row list_sort_click">
+                <div class="search-row"> <!-- list_sort_click-->
                   <span class="search-ico">
                     <img src="images/search.svg" alt="search">
                   </span>
@@ -102,23 +100,17 @@
                   </span>
                   <div class="search-input-wrap">
                     <input class="search-input" type="text" id="heroSearch"
-                      placeholder="Search machinery, brands, models or manufacturers..." autocomplete="off">
-                      <span class="search_close">
-                        <img src="images/close.svg" alt="close">
-                      </span>
+                      placeholder="Search machines, brands, models or factories..." autocomplete="off">
                   </div>
+
                 </div>
 
-                <div class="list_sort_dropdown">
+                <!-- <div class="list_sort_dropdown">
                   <div class="dropdown-section" data-section="recent">
                     <p class="dropdown-heading">Recent searches
                       <button type="button" class="text-link" data-action="clear-recent">Clear all</button>
                     </p>
-                    <div class="empty-block" id="emptyRecent">
-                      <img src="images/search-mach.svg" alt="Search">
-                      <p class="empty-title">No recent searches yet</p>
-                      <p class="empty-sub">Things you search for will show up here so you can find them again fast.</p>
-                    </div>
+                 
                     <div class="dropdown_list" id="recentListWrap">
                       <ul class="list_sort_dropdown_inner" id="recentList">
                         <li>
@@ -190,7 +182,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="dropdown-section no-border" data-section="popular">
+                  <div class="dropdown-section" data-section="popular">
                     <div class="dropdown-heading">
                       <span>Popular searches</span>
                     </div>
@@ -203,7 +195,7 @@
                       <button type="button" class="chip" data-role="chip" data-term="Flexo Printing Press">Flexo Printing Press</button>
                     </div>
                   </div>
-
+  
                   <div class="dropdown-section no-border">
                     <div class="dropdown-heading">
                       <span>Machinery</span>
@@ -270,7 +262,6 @@
                         
                       </div>
                     </a>
-                    
                    </div>
                    <div class="dropdown_card_view">
                     <a href="#" class="view-all">
@@ -281,7 +272,7 @@
                     </a>
                    </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="md_login_notify">
@@ -345,6 +336,7 @@
                   </div>
                 </span>
               </div>
+
             </div>
 
             <!-- Hamburger -->
@@ -365,9 +357,10 @@
                 </span>
               </div>
             </div>
-          </div>
-        </div>
 
+          </div>
+
+        </div>
         <!-- Mobile menu -->
         <nav class="mobile-menu mobile_nav_menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
           <div class="container">
@@ -378,15 +371,18 @@
                   <p class="mobile-menu__link_txt">Machinery</p>
                   <span class="arrow_icon"><img src="images/arrow-right.svg" alt="arrow icon"></span>
                 </span>
+
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                   aria-labelledby="offcanvasRightLabel1">
                   <div class="offcanvas-header">
                     <div class="container">
                       <h5 class="text-reset" id="offcanvasRightLabel1" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <img src="images/arrow-left-2.svg" alt="back">Main Menu</h5>
+                        <img src="images/arrow-left-2.svg" alt="back">Main Menu
+                      </h5>
                     </div>
                   </div>
                   <div class="offcanvas-body">
+
                     <div class="mob_menu_right">
                       <div class="container">
                         <div class="mobile_menu_sublist_sec">
@@ -396,17 +392,25 @@
                                 <div class="header_menu_list1">
                                   <div class="header_menu_list11">
 
-                                    <a href="#">Paper Handling <span>(28)</span></a>
+                                    <a href="#">3D & Digital Manufacturing <span>(3)</span></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="header_menu_list1 header_menu_list2">
+                                  <div class="header_menu_list11">
+
+                                    <a href="#">Pre Press <span>(35)</span></a>
                                   </div>
                                   <ul class="subcategory_list">
                                     <li>
-                                      <p>Loaders (4)</p>
+                                      <p>CTP Systems (25)</p>
                                     </li>
                                     <li>
-                                      <p>Stackers (4)</p>
+                                      <p>Plate Processors (5)</p>
                                     </li>
                                     <li>
-                                      <p>Turners (3)</p>
+                                      <p>Plate Punchers / Benders (1)</p>
                                     </li>
                                   </ul>
                                 </div>
@@ -415,14 +419,17 @@
                                 <div class="header_menu_list1 header_menu_list2">
                                   <div class="header_menu_list11">
 
-                                    <a href="#">Packaging Machinery <span>(7)</span></a>
+                                    <a href="#">Post Press <span>(880)</span></a>
                                   </div>
                                   <ul class="subcategory_list">
                                     <li>
-                                      <p>Strapping (24)</p>
+                                      <p>Accessories (26)</p>
                                     </li>
                                     <li>
-                                      <p>Wrapping (9)</p>
+                                      <p>Book Production (15)</p>
+                                    </li>
+                                    <li>
+                                      <p>Calendar Production (7)</p>
                                     </li>
                                   </ul>
                                 </div>
@@ -431,14 +438,17 @@
                                 <div class="header_menu_list1 header_menu_list2">
                                   <div class="header_menu_list11">
 
-                                    <a href="#">Paper Cutting <span>(16)</span></a>
+                                    <a href="#">Converting <span>(82)</span></a>
                                   </div>
                                   <ul class="subcategory_list">
                                     <li>
-                                      <p>Guillotines (121)</p>
+                                      <p>Bag Making (13)</p>
                                     </li>
                                     <li>
-                                      <p>Three-Knife Trimmers (21)</p>
+                                      <p>Converting Machines (1)</p>
+                                    </li>
+                                    <li>
+                                      <p>Flexographic Equipment (36)</p>
                                     </li>
                                   </ul>
                                 </div>
@@ -447,36 +457,20 @@
                                 <div class="header_menu_list1 header_menu_list2">
                                   <div class="header_menu_list11">
 
-                                    <a href="#">Converting Machinery <span>(3)</span></a>
+                                    <a href="#">Web <span>(25)</span></a>
                                   </div>
                                   <ul class="subcategory_list">
                                     <li>
-                                      <p>Bag Making (12)</p>
+                                      <p>Flexo (3)</p>
                                     </li>
                                     <li>
-                                      <p>Carton Converting (13)</p>
+                                      <p>Gravure / Rotogravure (9)</p>
                                     </li>
                                     <li>
-                                      <p>Corrugated (5)</p>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="header_menu_list1 header_menu_list2">
-                                  <div class="header_menu_list11">
-
-                                    <a href="#">Finishing & Postpress <span>3</span></a>
-                                  </div>
-                                  <ul class="subcategory_list">
-                                    <li>
-                                      <p>Book Production (61)</p>
+                                      <p>Labels and Forms (1)</p>
                                     </li>
                                     <li>
-                                      <p>Case Binding (53)</p>
-                                    </li>
-                                    <li>
-                                      <p>Creasing (3)</p>
+                                      <p>Commercial / Heatset (9)</p>
                                     </li>
                                   </ul>
                                 </div>
@@ -513,6 +507,7 @@
                               </div>
                             </div>
                           </div>
+
                           <div class="explore_inven">
                             <button type="button" class="explore_inven_btn"
                               onclick="window.location.href = 'list.html';">
@@ -526,18 +521,173 @@
                       </div>
                     </div>
                   </div>
+
                 </div>
+
+                <!-- <div class="mobile-menu__sublist">
+               <div class="mobile_menu_sublist_sec">
+               <div class="header_menu_new_subsec_moblist">
+                <ul class="header_menu_new_subsec_list_ul">
+                  <li>
+                    <div class="header_menu_list1">
+                      <div class="header_menu_list11">
+                        
+                        <a href="#">Sheet Fed / Offset <span>(1302)</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+                        
+                        <a href="#">Pre Press <span>(35)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>CTP Systems (25)</p>
+                        </li>
+                        <li>
+                          <p>Plate Processors (5)</p>
+                        </li>
+                        <li>
+                          <p>Plate Punchers / Benders (1)</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+                        
+                        <a href="#">Post Press <span>(880)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>Accessories (26)</p>
+                        </li>
+                        <li>
+                          <p>Book Production (15)</p>
+                        </li>
+                        <li>
+                          <p>Calendar Production (7)</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+                        
+                        <a href="#">Converting <span>(82)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>Bag Making (13)</p>
+                        </li>
+                        <li>
+                          <p>Converting Machines (1)</p>
+                        </li>
+                        <li>
+                          <p>Flexographic Equipment (36)</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+                        
+                        <a href="#">Web <span>(25)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>Flexo (3)</p>
+                        </li>
+                        <li>
+                          <p>Gravure / Rotogravure (9)</p>
+                        </li>
+                        <li>
+                          <p>Labels and Forms (1)</p>
+                        </li>
+                        <li>
+                          <p>Commercial / Heatset (9)</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+               </div>
+
+                <div class="header_menu_new_subsec_2">
+                  <div class="header_menu_new_subsec_2_inner">
+                    <div class="header_menu_new_subsec_2_inner1">
+                      <div class="header_menu_new_subsec_2_inner11">
+                        <span>
+                          <img src="images/global-2.svg" alt="Global Logistics">
+                        </span>
+                        <div class="header_menu_new_subsec_2_inner11_text">
+                          <h4>Global Logistics</h4>
+                          <p>Real-time shipping quotes worldwide.</p>
+                        </div>
+                      </div>
+    
+                      <div class="header_menu_new_subsec_2_inner11 header_menu_new_subsec_2_inner12">
+                        <span>
+                          <img src="images/flexible.svg" alt="Flexible Financing">
+                        </span>
+                        <div class="header_menu_new_subsec_2_inner11_text">
+                          <h4>Flexible Financing</h4>
+                          <p>Secure asset-backed lending options.</p>
+                        </div>
+                      </div>
+    
+                    </div>
+    
+                    <div class="explore_inven">
+                      <button type="button" class="explore_inven_btn" onclick="window.location.href = 'list.html';">
+                        EXPLORE
+                        <span class="material-symbols-outlined">
+                          trending_flat
+                        </span>
+                      </button>
+                    </div>
+    
+                  </div>
+    
+                </div>
+               </div>
+              </div> -->
               </li>
               <li><a href="brands.html" class="mobile-menu__link">Brands</a></li>
               <li><a href="#" class="mobile-menu__link">Concierge</a></li>
               <li><a href="#" class="mobile-menu__link">Liquidation</a></li>
-              <li><a href="#" class="mobile-menu__link">Plans</a></li>
+              <li><a href="plans.html" class="mobile-menu__link">Plans</a></li>
+
+
             </ul>
-            
+            <!-- <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__user">
+              
+              <a href="#" class="mobile-menu__link mobile-menu__link--ico"><span
+                  class="material-symbols-outlined location-ico">
+                  notifications
+                </span>Notifications</a>
+              <a href="#" class="mobile-menu__link mobile-menu__link--user mobile-menu__link--userlogin d-none"><span
+                  class="material-symbols-outlined location-ico">
+                  person
+                </span><span class="user_name">Login</span></a>
+              <a href="#" class="mobile-menu__link mobile-menu__link--user"><span
+                  class="material-symbols-outlined location-ico">
+                  person
+                </span><span class="user_name">James Anderson</span></a>
+            </div> -->
           </div>
         </nav>
       </div>
       <!--============ On Click Menu START ============-->
+
+
+
 
       <div class="header_menu_new">
 
@@ -547,19 +697,58 @@
             <div class="header_menu_new_subsec_1">
               <div class="header_menu_new_subsec_list">
                 <ul class="header_menu_new_subsec_list_ul">
-                  
                   <li>
                     <div class="header_menu_list1 header_menu_list2">
                       <div class="header_menu_list11">
 
+                        <a href="#">3D & Digital Manufacturing <span>(3)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>3D Printers</p>
+                        </li>
+                        <li>
+                          <p>3D Scanners</p>
+                        </li>
+                        <li>
+                          <p>CNC Machines</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+
+                        <a href="#">Software & Automation <span>(4)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>Workflow Software</p>
+                        </li>
+                        <li>
+                          <p>Colour Management</p>
+                        </li>
+                        <li>
+                          <p>Robotics</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
                         <a href="#">Packaging Machinery <span>(7)</span></a>
                       </div>
                       <ul class="subcategory_list">
                         <li>
-                          <p>Strapping (24)</p>
+                          <p>Cartoning</p>
                         </li>
                         <li>
-                          <p>Wrapping (9)</p>
+                          <p>Strapping</p>
+                        </li>
+                        <li>
+                          <p>Palletizing</p>
                         </li>
                       </ul>
                     </div>
@@ -568,75 +757,22 @@
                     <div class="header_menu_list1 header_menu_list2">
                       <div class="header_menu_list11">
 
-                        <a href="#">Paper Cutting <span>(16)</span></a>
+                        <a href="#">Finishing & Postpress <span>(14)</span></a>
                       </div>
                       <ul class="subcategory_list">
                         <li>
-                          <p>Guillotines (121)</p>
+                          <p>Saddle Stitching</p>
                         </li>
                         <li>
-                          <p>Three-Knife Trimmers (21)</p>
+                          <p>Perfect Binding</p>
+                        </li>
+                        <li>
+                          <p>Shrink Wrapping</p>
                         </li>
                       </ul>
                     </div>
                   </li>
-                  <li>
-                    <div class="header_menu_list1 header_menu_list2">
-                      <div class="header_menu_list11">
-
-                        <a href="#">Converting Machinery <span>(3)</span></a>
-                      </div>
-                      <ul class="subcategory_list">
-                        <li>
-                          <p>Bag Making (12)</p>
-                        </li>
-                        <li>
-                          <p>Carton Converting (13)</p>
-                        </li>
-                        <li>
-                          <p>Corrugated (5)</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="header_menu_list1 header_menu_list2">
-                      <div class="header_menu_list11">
-
-                        <a href="#">Finishing & Postpress <span>3</span></a>
-                      </div>
-                      <ul class="subcategory_list">
-                        <li>
-                          <p>Book Production (61)</p>
-                        </li>
-                        <li>
-                          <p>Case Binding (53)</p>
-                        </li>
-                        <li>
-                          <p>Creasing (3)</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="header_menu_list1 header_menu_list2">
-                      <div class="header_menu_list11">
-
-                        <a href="#">Paper Handling <span>(28)</span></a>
-                      </div>
-                      <ul class="subcategory_list">
-                        <li>
-                          <p>Loaders (4)</p>
-                        </li>
-                        <li>
-                          <p>Stackers (4)</p>
-                        </li>
-                        <li>
-                          <p>Turners (3)</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
+              
                 </ul>
               </div>
               <div class="header_menu_new_card_list">
@@ -1433,9 +1569,9 @@
       <div class="container">
         <div class="trend_search_subsec">
           <div class="trend_search_1">
-            <!-- <div class="trend_search_img1">
-              <img src="images/trend_search.png" alt="trend search">
-            </div> -->
+            <div class="trend_search_img1">
+              <img src="images/trend_search-2.svg" alt="trend search">
+            </div>
             <div class="trend_search_txt_1">
               <h3 class="section-title_3">
                 Machinery Procurement Concierge 
@@ -1771,6 +1907,7 @@
                   <span class="material-symbols-outlined">send</span>
                 </button>
               </div>
+            
             </div>
             <span class="errorMsg_p" id="email_login_error" style="display: block;">Please enter your Email Address.</span>
           </div>
@@ -2000,14 +2137,14 @@
 
   <!--============ mobile search START ============-->
   <script>
-    $('.headerSearch_new').on('click', function (e) {
+    $('.headerSearch_new, .headerSearch').on('click', function (e) {
       e.stopPropagation();
       $(this).toggleClass('headerSearch_new_mob');
     });
 
     $(document).on('click', function (e) {
       if (!$(e.target).closest('.headerSearch_new').length) {
-        $('.headerSearch_new').removeClass('headerSearch_new_mob');
+        $('.headerSearch_new, .headerSearch').removeClass('headerSearch_new_mob');
       }
     });
   </script>

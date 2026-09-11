@@ -35,8 +35,8 @@
 
           <div class="small_header">
 
-            <div>
-              <button type="button" class="sell_btn">Seller Portal</button>
+            <div> 
+              <button type="button" class="sell_btn" onclick="window.location.href = 'list-on-machine-dalal.html';">Seller Portal</button>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="header_content" itemscope="" itemtype="https://schema.org/WebSite">
           <div class="header_mach_logo_sec">
             <div class="header_mach_logo">
-              <div class="logo">
+              <div class="logo" onclick="window.location.href = 'index.html';">
                 <a itemprop="url" href="index.html" class="md-logo">
                   <img itemprop="logo" src="images/md-logo-new.svg" alt="Machine Dalal logo Image" />
                 </a>
@@ -64,7 +64,6 @@
                     <p data-menu="products" class="products">
                       Machinery
                       <span class="arrow_icon"><img src="images/arrow-down.svg" alt="arrow icon"></span>
-
                     </p>
                   </li>
 
@@ -87,7 +86,7 @@
                   </li>
 
                   <li>
-                    <p data-menu="plans">
+                     <p data-menu="plans" onclick="window.location.href = 'plans.html';">
                       Plans
                     </p>
                   </li>
@@ -121,7 +120,7 @@
                 </span>
                 <span class="profile-ico">
                   <img src="images/login-2.svg" alt="profile">
-                   <div class="profile_info_drop">
+                  <div class="profile_info_drop">
                     <div class="profile_info_head">
                       <div class="profile_login_ico">
                         <img src="images/avtar-2.svg" alt="avatar">
@@ -198,7 +197,7 @@
 
         </div>
         <!-- Mobile menu -->
-       <nav class="mobile-menu mobile_nav_menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+        <nav class="mobile-menu mobile_nav_menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
           <div class="container">
             <ul class="mobile-menu__list" role="list">
               <li>
@@ -213,7 +212,8 @@
                   <div class="offcanvas-header">
                     <div class="container">
                       <h5 class="text-reset" id="offcanvasRightLabel1" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <img src="images/arrow-left-2.svg" alt="back">Main Menu</h5>
+                        <img src="images/arrow-left-2.svg" alt="back">Main Menu
+                      </h5>
                     </div>
                   </div>
                   <div class="offcanvas-body">
@@ -227,7 +227,7 @@
                                 <div class="header_menu_list1">
                                   <div class="header_menu_list11">
 
-                                    <a href="#">Sheet Fed / Offset <span>(1302)</span></a>
+                                    <a href="#">3D & Digital Manufacturing <span>(3)</span></a>
                                   </div>
                                 </div>
                               </li>
@@ -496,7 +496,7 @@
               <li><a href="brands.html" class="mobile-menu__link">Brands</a></li>
               <li><a href="#" class="mobile-menu__link">Concierge</a></li>
               <li><a href="#" class="mobile-menu__link">Liquidation</a></li>
-              <li><a href="#" class="mobile-menu__link">Plans</a></li>
+              <li><a href="plans.html" class="mobile-menu__link">Plans</a></li>
 
 
             </ul>
@@ -533,28 +533,20 @@
               <div class="header_menu_new_subsec_list">
                 <ul class="header_menu_new_subsec_list_ul">
                   <li>
-                    <div class="header_menu_list1">
-                      <div class="header_menu_list11">
-
-                        <a href="#">Sheet Fed / Offset <span>(1302)</span></a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
                     <div class="header_menu_list1 header_menu_list2">
                       <div class="header_menu_list11">
 
-                        <a href="#">Pre Press <span>(35)</span></a>
+                        <a href="#">3D & Digital Manufacturing <span>(3)</span></a>
                       </div>
                       <ul class="subcategory_list">
                         <li>
-                          <p>CTP Systems (25)</p>
+                          <p>3D Printers</p>
                         </li>
                         <li>
-                          <p>Plate Processors (5)</p>
+                          <p>3D Scanners</p>
                         </li>
                         <li>
-                          <p>Plate Punchers / Benders (1)</p>
+                          <p>CNC Machines</p>
                         </li>
                       </ul>
                     </div>
@@ -563,17 +555,35 @@
                     <div class="header_menu_list1 header_menu_list2">
                       <div class="header_menu_list11">
 
-                        <a href="#">Post Press <span>(880)</span></a>
+                        <a href="#">Software & Automation <span>(4)</span></a>
                       </div>
                       <ul class="subcategory_list">
                         <li>
-                          <p>Accessories (26)</p>
+                          <p>Workflow Software</p>
                         </li>
                         <li>
-                          <p>Book Production (15)</p>
+                          <p>Colour Management</p>
                         </li>
                         <li>
-                          <p>Calendar Production (7)</p>
+                          <p>Robotics</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header_menu_list1 header_menu_list2">
+                      <div class="header_menu_list11">
+                        <a href="#">Packaging Machinery <span>(7)</span></a>
+                      </div>
+                      <ul class="subcategory_list">
+                        <li>
+                          <p>Cartoning</p>
+                        </li>
+                        <li>
+                          <p>Strapping</p>
+                        </li>
+                        <li>
+                          <p>Palletizing</p>
                         </li>
                       </ul>
                     </div>
@@ -582,43 +592,22 @@
                     <div class="header_menu_list1 header_menu_list2">
                       <div class="header_menu_list11">
 
-                        <a href="#">Converting <span>(82)</span></a>
+                        <a href="#">Finishing & Postpress <span>(14)</span></a>
                       </div>
                       <ul class="subcategory_list">
                         <li>
-                          <p>Bag Making (13)</p>
+                          <p>Saddle Stitching</p>
                         </li>
                         <li>
-                          <p>Converting Machines (1)</p>
+                          <p>Perfect Binding</p>
                         </li>
                         <li>
-                          <p>Flexographic Equipment (36)</p>
+                          <p>Shrink Wrapping</p>
                         </li>
                       </ul>
                     </div>
                   </li>
-                  <li>
-                    <div class="header_menu_list1 header_menu_list2">
-                      <div class="header_menu_list11">
-
-                        <a href="#">Web <span>(25)</span></a>
-                      </div>
-                      <ul class="subcategory_list">
-                        <li>
-                          <p>Flexo (3)</p>
-                        </li>
-                        <li>
-                          <p>Gravure / Rotogravure (9)</p>
-                        </li>
-                        <li>
-                          <p>Labels and Forms (1)</p>
-                        </li>
-                        <li>
-                          <p>Commercial / Heatset (9)</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
+              
                 </ul>
               </div>
               <div class="header_menu_new_card_list">
@@ -979,7 +968,7 @@
                     </div>
                   </div>
                 </div>
-                <p class="section-sub">Discover new and pre-owned <span>Heidelberg</span> machinery from trusted sellers worldwide. Browse equipment for the printing, packaging & converting industry, compare listings, and connect directly with sellers on Machine Dalal.</p>
+                <p class="section-sub txtDescription_main" id="txtDescription">Discover new and pre-owned <span>Heidelberg</span> machinery from trusted sellers worldwide. Browse equipment for the printing, packaging & converting industry, compare listings, and connect directly with sellers on Machine Dalal.  machinery from trusted sellers worldwide. Browse equipment for the printing, packaging & converting industry, compare listings, and connect directly with sellers on Machine Dalal. machinery from trusted sellers worldwide. Browse equipment for the printing, packaging & converting industry, compare listings, and connect directly with sellers on Machine Dalal.</p>
               </div>
 
               <div class="md_list_content_head_sec">
@@ -2389,6 +2378,17 @@
 
     });
   </script>
+
+<!--============ Expandable text area START =============-->
+<script>
+  $(document).on('click', '.md_list_content_head_2 .txtDescription_main', function () {
+    $(this).toggleClass('expanded');
+});
+</script>
+<!--============ Expandable text area END =============-->
+
+
+
 </body>
 
 </html>
