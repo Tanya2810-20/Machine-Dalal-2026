@@ -21,6 +21,14 @@
     .modelCustom .modal-dialog {
         width: 70%;
     }
+ 
+    .search_hero{
+        height: calc(100vh - 109px);
+    }
+    .search_hero_map{
+        bottom: calc(100vh - 690px);
+    }
+        
 }
 
 @media(max-width: 1760px) {
@@ -85,6 +93,7 @@
     .modelCustom .modal-dialog {
         width: 90%;
     }
+    
 }
 
 @media (max-width: 1440px) {
@@ -137,7 +146,7 @@
     .px-price,
     .global_sell_subsec_1 h3,
     .newsletrBox1 h3,
-    .post_requirement_subsec_left h3, .plans_hero h1 {
+    .post_requirement_subsec_left h3, .plans_hero h1, .search_hero h1 {
         font-size: 44px;
         line-height: 59px;
     }
@@ -166,7 +175,7 @@
     .listing_freq_sec_head h3,
     .post_req_heading,
     .md_newsletter_txt2,
-    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text {
+    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text, .search_post_requirement_subsec_left h3 {
         font-size: 28px;
         line-height: 37px;
     }
@@ -226,7 +235,7 @@
         padding: 60px 0;
     }
 
-    .md_plans1{
+    .md_plans1, .search_post_req_sec{
         padding-top: 60px;
     }
 
@@ -238,7 +247,7 @@
         margin-bottom: 60px;
     }
 
-    .blog_detail_list_sec, .category_head3 .listing_cards_sec {
+    .blog_detail_list_sec, .category_head3 .listing_cards_sec, .md_list_sec_main {
         padding-bottom: 60px;
     }
 
@@ -290,7 +299,7 @@
     }
 
     .listings-grid_new .listing-card,
-    .machine_add_list_wid {
+    .machine_add_list_wid, .req_listing-card {
         width: calc(33.33% - 11px);
     }
 
@@ -341,11 +350,6 @@
         max-width: 350px;
     }
 
-    .md_query2_txt_2 {
-        font-size: 32px;
-        line-height: 43px;
-    }
-
     .sell_mach_card h3,
     .px-plan-name {
         font-size: 22px;
@@ -361,7 +365,7 @@
     }
 
     .trend_search_img1>img {
-        width: 380px;
+        width: 300px;
     }
 
     .trend_search_img>img {
@@ -441,6 +445,23 @@
         margin: 0px 30px;
     }
 
+    /* .popular_search_grid_sec{
+        overflow: auto;
+        scrollbar-width: none;
+    } */
+
+    .popular_search_grid_sec .catgry_grid_subsec{
+      flex-wrap: wrap;
+    }
+
+    .md_brand_new_sec_main .listing-card-new_mach {
+        width: calc(50% - 12px);
+    }
+
+    .md_list_explore_content_flex{
+        max-width: 620px;
+    }
+   
 }
 
 @media (max-width: 1366px) {
@@ -464,6 +485,17 @@
 
     .headerSearch_new .empty-sub, .headerSearch .empty-sub {
         margin: 0 20px;
+    }
+    .search_hero{
+        height: 500px;
+    }
+    .search_hero_map{
+        width: 795px;
+        bottom: 12px;
+    }
+    .brand-card{
+        width: 180px;
+        height: 70px;
     }
 }
 
@@ -518,7 +550,7 @@
     .store_sec114 h1,
     .global_sell_subsec_1 h3,
     .newsletrBox1 h3,
-    .post_requirement_subsec_left h3, .plans_hero h1 {
+    .post_requirement_subsec_left h3, .plans_hero h1, .search_hero h1 {
         font-size: 42px;
         line-height: 56px;
     }
@@ -536,7 +568,7 @@
     .post_req_heading,
     .md_newsletter_txt2,
     .md_advertise_subsec1 h3,
-    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text {
+    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text, .search_post_requirement_subsec_left h3 {
         font-size: 26px;
         line-height: 35px;
     }
@@ -599,10 +631,6 @@
         max-width: 590px;
     }
 
-    .trend_search_img1>img {
-        width: 340px;
-    }
-
     .global_sell_subsec_1,
     .global_sell_subsec_2,
     .post_requirement_subsec_left,
@@ -627,7 +655,7 @@
     .listings-grid_new .listing-card,
     .machine_add_list_wid,
     .store_sec2_list .listing-card,
-    .machine_add_list_wid {
+    .machine_add_list_wid, .req_listing-card {
         width: calc(50% - 12px);
     }
 
@@ -817,11 +845,43 @@
     .header_menu_new_subsec_2_inner1{
         gap: 20px;
     }
+    .md_req_dtl011 h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .md_req_dtl012{
+        gap: 16px;
+    }
+    .md_req_dtl0121 {
+        width: 65%;
+    }
+    .md_req_dtl0122 {
+        width: 35%;
+    }
+    .md_req_dtl0122_11 h4{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .trend_search_img1{
+        right: 50px;
+    }
+    .md_explore_logo>img{
+        max-width: 136px;
+    }
+
+    .md_list_explore_content_flex {
+        max-width: 500px;
+    }
+  
 }
 
 @media(max-width: 1191px) {
     .grey_loader_1 {
         width: 299px;
+    }
+
+    .trend_search_img1>img {
+        width: 250px;
     }
 }
 
@@ -903,6 +963,13 @@
 
     .page_not_found0_sub img{
         width: 360px;
+    }
+    .brand-card img {
+        width: 95px;
+    }
+    .brand-card {
+        width: 170px;
+        height: 65px;
     }
 }
 
@@ -1027,18 +1094,16 @@
         gap: 20px;
     }
 
-    .global_sell_subsec_2 {
+    /* .global_sell_subsec_2 {
         flex-direction: column;
         align-items: flex-end;
-    }
+        width: 35%;
+    } */
 
     .global_sell_subsec_1 {
         width: 65%;
     }
 
-    .global_sell_subsec_2 {
-        width: 35%;
-    }
 
     .post_requirement_subsec_left {
         width: 55%;
@@ -1304,6 +1369,10 @@
         width: 100%;
     }
 
+    .md_requirement_sec_main .md_list_sidebar_inner{
+        margin-top: 40px;
+    }
+
     .wide_view_mob.show_map {
         min-height: calc(100vh - 400px);
     }
@@ -1358,11 +1427,6 @@
 
     .listing_detail_sec {
         gap: 12px;
-    }
-
-    .md_query2_txt_2 {
-        font-size: 28px;
-        line-height: 37px;
     }
 
     .md_query2_txt_2.md_price_req{
@@ -1430,7 +1494,7 @@
     .listing_detail_desc_inner h3,
     .dotsMain h3,
     .policy_subheading,
-    .machine_desc .machine_desc_subhead strong {
+    .machine_desc .machine_desc_subhead strong, .md_req_dtl_mach_txt, .md_req_dtl0122_11 h4, .modal-title {
         font-size: 22px;
         line-height: 29px;
     }
@@ -1600,7 +1664,7 @@
     }
 
     .trend_search_img1 {
-        display: none;
+        right: 0;
     }
 
     .trend_search_desc_2 {
@@ -1659,6 +1723,45 @@
 
       .hero-inner-11 {
         width: 100%;
+    }
+    .brand-card {
+        width: 162px;
+    }
+    .search_post_req_subsec{
+        padding: 45px 40px 45px 32px;
+    }
+    .md_req_dtl011 h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .md_req_detail_specif {
+        padding: 24px;
+    }
+
+    .md_req_dtl0121, .md_req_dtl0122{
+        width: 100%;
+    }
+
+    .md_req_dtl012{
+        flex-direction: column;
+    }
+
+    .md_resource_list_ul>li {
+        width: calc(50% - 12px);
+    }
+    .md_brand_new_sec_main .machine_add_list_wid{
+        width: 100%;
+    }
+    .md_explore_logo{
+        position: unset;
+    }
+
+    .md_list_explore_content_flex {
+        max-width: unset;
+    }
+
+    .md_list_content_head_explore .md_list_content_head_txt{
+        min-height: 178px;
     }
 }
 
@@ -1917,7 +2020,7 @@
         padding: 50px 0;
     }
 
-    .md_plans1{
+    .md_plans1, .search_post_req_sec{
         padding-top: 50px;
     }
 
@@ -1929,7 +2032,7 @@
         margin-bottom: 50px;
     }
 
-    .blog_detail_list_sec, .category_head3 .listing_cards_sec {
+    .blog_detail_list_sec, .category_head3 .listing_cards_sec, .md_list_sec_main {
         padding-bottom: 50px;
     }
 
@@ -2035,7 +2138,7 @@
     }
 
     .global_sell_subsec,
-    .post_requirement_subsec {
+    .post_requirement_subsec, .search_post_req_subsec {
         gap: 30px;
         flex-wrap: wrap;
     }
@@ -2051,11 +2154,11 @@
         flex-wrap: wrap;
     }
 
-    .post_requirement_subsec_left {
+    .post_requirement_subsec_left, .search_post_requirement_subsec_left {
         width: 100%;
     }
 
-    .post_requirement_subsec_right {
+    .post_requirement_subsec_right, .search_post_requirement_subsec_right {
         width: 100%;
         justify-content: flex-start;
     }
@@ -2099,7 +2202,7 @@
     .store_sec114 h1,
     .global_sell_subsec_1 h3,
     .newsletrBox1 h3,
-    .post_requirement_subsec_left h3, .plans_hero h1 {
+    .post_requirement_subsec_left h3, .plans_hero h1, .search_hero h1 {
         line-height: 53px;
         font-size: 40px;
     }
@@ -2177,7 +2280,7 @@
     .trend_search_desc_2,
     .machine_desc p,
     .listing_detail_desc_inner .machine_desc p,
-    .machine_desc strong, .list_no_category_subsec1 p, .cat-name, .md_plans11_link, .md_plans12_plan1_head_txt, .accordion_content .post_req_txt2, .md_plans32_card1_headtxt, .catgry-name {
+    .machine_desc strong, .list_no_category_subsec1 p, .cat-name, .md_plans11_link, .md_plans12_plan1_head_txt, .accordion_content .post_req_txt2, .md_plans32_card1_headtxt, .catgry-name, .search_post_requirement_subsec_left p, td.md_req_txt_transform, .md_req_table_2 td, .md_req_dtl0122_122_name1, .md_req_dtl0122_211 p, .md_req_dtl_sell_txt, .md_req_dtl0122_32_name1 {
         font-size: 14px;
         line-height: 19px;
     }
@@ -2200,15 +2303,24 @@
     .md_sell_equip_subsec31 p,
     .accordion-trigger,
     .md_list_sidebar_list1 h3,
-    .md_list_sidebar_list1 h3 a, .section-search, .md_plan_card_headtxt, .page_not_found0_sub_text2 {
+    .md_list_sidebar_list1 h3 a, .section-search, .md_plan_card_headtxt, .page_not_found0_sub_text2, .md_req_dtl011_text, .md_req_dtl_sell_price {
         font-size: 16px;
         line-height: 21px;
     }
 
     .md_newsletter_txt2,
-    .listing_bought_info_2>p, .md_plans0_txt_bold, .md_plans12_head h4, .md_plans12_plan1_head_title, .md_faq_headtxt, .category_head3 .listing_cards_sec_head h3 {
+    .listing_bought_info_2>p, .md_plans0_txt_bold, .md_plans12_head h4, .md_plans12_plan1_head_title, .md_faq_headtxt, .category_head3 .listing_cards_sec_head h3, .md_req_dtl0122_211 h4, .md_req_dtl0122_31 h4 {
         font-size: 18px;
         line-height: 24px;
+    }
+
+   
+
+
+
+    .req_listing-budget_price{
+        font-size: 20px;
+        line-height: 27px;
     }
 
     .md_plans12_ppack_bold, .md_plans221_buyer_headtxt_bold {
@@ -2224,16 +2336,6 @@
         width: 30px;
         height: 30px;
         margin-top: 3px;
-    }
-
-    .md_query2_txt_2 {
-        font-size: 25px;
-        line-height: 33px;
-        margin: 20px 0 0;
-    }
-
-    .md_query_main{
-        height: 330px;
     }
 
     .md_query2_txt_3 {
@@ -2314,7 +2416,7 @@
     .listing_freq_sec_head h3,
     .post_req_heading,
     .md_advertise_subsec1 h3,
-    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text {
+    .section-title_3, .md_plans41_sub>h4, .page_not_found0_sub_text, .search_post_requirement_subsec_left h3 {
         font-size: 22px;
         line-height: 29.3px;
     }
@@ -2334,7 +2436,7 @@
     .machine_add_list_wid,
     .store_sec2 .listing-card,
     .machine_add_list_wid,
-    .machine_add_list_wid {
+    .machine_add_list_wid, .req_listing-card {
         width: 100%;
     }
 
@@ -2543,8 +2645,12 @@
     .sell_mach_subsec_1,
     .launch_store_subsec_1 h2,
     .epd-heading,
-    .cta-heading, .md_plans41_sub>h4 {
+    .cta-heading, .md_plans41_sub>h4, .search_post_requirement_subsec_left h3 {
         margin-bottom: 20px;
+    }
+
+    .md_req_dtl01{
+        row-gap: 20px;
     }
 
     .sell_mach_subsec_1 h2 {
@@ -2586,7 +2692,7 @@
     .listing_detail_desc_inner h3,
     .dotsMain h3,
     .policy_subheading,
-    .machine_desc .machine_desc_subhead strong {
+    .machine_desc .machine_desc_subhead strong, .md_req_dtl_mach_txt, .md_req_dtl0122_11 h4, .modal-title {
         font-size: 20px;
         line-height: 27px;
     }
@@ -2716,10 +2822,10 @@
         margin-bottom: 20px !important;
     }
 
-    .fixed_header .headerSearch_new_mob {
+    .headerSearch_new_mob {
         position: absolute;
         width: 100%;
-        max-width: unset;
+        max-width: 100% !important;
         left: 0;
         right: 0;
         top: 0;
@@ -2742,6 +2848,12 @@
     .headerSearch_new.headerSearch_new_mob .trending-ico {
         display: inline-block;
         /* transform: scale(-1 , 1); */
+    }
+
+    .headerSearch_new .list_sort_dropdown, .headerSearch .list_sort_dropdown {
+        top: 72px;
+        background: linear-gradient(to top, #ffffff 0%, #f0f3fa 0%, rgb(255 255 255) 100%, #00000000 100%);
+        border-bottom: 1px solid #dbdbdb;
     }
 
     .mobile_nav_menu .header_menu_new_subsec_list_ul {
@@ -2841,6 +2953,11 @@
         height: auto;
         margin-bottom: 30px;
         border-bottom: none;
+        gap: 20px;
+        min-height: unset;
+    }
+
+    .md_list_explore_content_flex{
         gap: 20px;
     }
 
@@ -3058,6 +3175,59 @@
     .page_not_found0 {
         height: 620px;
     }
+
+    .search-hero-inner-1, .search-hero-inner-11{
+        width: 100%;
+    }
+
+    .search_hero_map {
+        display: none;
+    }
+
+    .search_hero {
+        height: 420px;
+    }
+
+    .brand-card {
+        width: 148px;
+    }
+
+    .search_post_req_subsec {
+        padding: 40px 30px;
+    }
+
+    .search-hero-inner-1{
+        margin-top: 40px;
+    }
+
+    .req_listingcat-flex .req_listing-img>img {
+        width: 17px;
+    }
+
+    .md_requirement_sec_main .brand_search .search-wrap{
+        width: 100%;
+    }
+    
+    .req_listing-card {
+        padding: 35px 20px 20px;
+    }
+
+
+    .cat-card {
+        width: calc(50% - 7.5px);
+    }
+
+    .cat-card-view{
+        min-height: 145px;
+    }
+    .md_resource_list_ul>li {
+        width: 100%;
+    }
+
+    .md_list_content_head_2 .txtDescription_main.expanded{
+        margin-bottom: 0;
+    }
+    
 }
 
 @media(max-width: 700px) {
@@ -3096,6 +3266,21 @@
     .listing_cards_sec {
         scroll-margin-top: 580px;
     }
+    .trend_search_img1 {
+       display: none;
+    }
+
+    .req_offr_form .modal-header{
+        padding: 20px;
+      }
+      
+      .req_offr_form .modal-body{
+        padding: 0 20px;
+      }
+      
+      .req_offr_form .modal-footer{
+        padding: 20px;
+      }
 
 }
 
@@ -3125,7 +3310,7 @@
     .brands_head h1,
     .blog_head h1,
     .px-heading,
-    .cta-heading, .plans_hero h1 {
+    .cta-heading, .plans_hero h1, .search_hero h1 {
         font-size: 34px;
         line-height: 45px;
         margin-bottom: 16px;
@@ -3139,6 +3324,11 @@
     .post_requirement_subsec_left h3 {
         font-size: 34px;
         line-height: 45px;
+    }
+
+    .md_req_dtl011 h1 {
+        font-size: 28px;
+        line-height: 37px;
     }
 
     .blog_head p,
@@ -3192,7 +3382,13 @@
     .cat-emoji img {
         width: 100px;
     }
+    .brand-card {
+        width: 160px;
+    }
 
+    .shareMachine .modal-dialog{
+        width: 95%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -3217,7 +3413,7 @@
         max-width: calc(100% - 115px);
     }
 
-    .fixed_header .headerSearch_new_mob {
+    .headerSearch_new_mob {
         max-width: unset;
     }
 
@@ -3364,7 +3560,17 @@
       .catgry-name{
         padding: 8px 18px;
       }
+      .brand-card {
+        width: 122px;
+        height: 60px;
+    }
 
+    .md_requirement_sec_main .brand_search .search-wrap{
+        width: 100%;
+    }
+    .List_pagination ul li .pagination_ico {
+        font-size: 40px;
+    }
      
 }
 
@@ -3381,9 +3587,7 @@
         gap: 10px;
     }
 
-    .cat-card {
-        width: calc(50% - 7.5px);
-    }
+
 
     .activity-text_1 {
         max-width: 250px;
@@ -3400,6 +3604,10 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 1;
         overflow: hidden;
+    }
+
+    .req_listingcat-flex .req_listing-img>img {
+        width: 27px;
     }
 }
 
@@ -3481,6 +3689,7 @@
     .md_demo_img .carousel-item {
         height: 250px;
     }
+  
 }
 
 @media (max-width: 360px) {
@@ -3495,7 +3704,7 @@
     .store_sec114 h1,
     .global_sell_subsec_1 h3,
     .newsletrBox1 h3,
-    .post_requirement_subsec_left h3, .plans_hero h1 {
+    .post_requirement_subsec_left h3, .plans_hero h1, .search_hero h1 {
         font-size: 30px;
         line-height: 40px;
     }
